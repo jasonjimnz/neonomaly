@@ -89,4 +89,3 @@ The API uses a graph data model in Neo4j:
 - `[:MONITORS]`: Connects a Service to a Metric
 - `[:LATEST_READING]`: Points from a Metric to its most recent MetricReading
 - `[:NEXT]`: Connects one MetricReading to the next in chronological order
-- `[:HAS_TOKEN]`: Connects a User to a RefreshToken
